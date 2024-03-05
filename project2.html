@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  .header {
+    width: 100%;
+    height: 80px;
+    display: block;
+
+  }
+
+  .inner_header {
+    width: 1400px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+    position: relative; 
+  }
+
+  .logo_container {
+    height: 100%;
+    display: table;
+    float: left;
+  }
+
+  .logo_container img {
+    max-width: 30%;
+    max-height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .navigatation {
+    float: left;
+    margin-left: -330px;
+    height: 100%;
+  }
+
+  .navigatation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+  }
+
+  .navigatation a li {
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+    height: 100%;
+  }
+
+  .nav_right {
+    float: left;
+    margin-left: 215px;
+    height: 100%;
+  }
+
+  .nav_right a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+  }
+
+  .nav_right a li {
+    display: table-cell;
+    vertical-align: middle;
+    color: black;
+    height: 100%;
+  }
+
+  .search-bar {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+  }
+
+  .search-bar input[type="text"] {
+    padding: 8px;
+    width: 200px;
+  }
+
+  .search-bar input[type="submit"] {
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .search-bar .icon {
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  .big-section {
+    position: relative;
+    color: #fff;
+    padding: 280px;
+    text-align: left; 
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.video-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.big-section h2 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.big-section p {
+    font-size: 18px;
+}
+
+.dual-box-section {
+    width: 100%;
+    max-width: 1800px;
+    height: 500px;
+    padding: 0px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    gap: 25px;
+    margin: 20px auto 50px;;
+
+}
+
+.dual-box-section h1 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+font-weight: lighter;
+
+}
+
+.dual-box-section p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+}
+
+.left-box {
+    background-image: url(Screenshot\ 2024-03-03\ 170642.png); 
+    background-size: cover;
+    width: 12000px;
+    height: 501px;
+}
+
+.right-box {
+  background-image: url(scs.png); 
+    background-size: cover;
+    width: 12000px;
+    height: 500px;
+}
+
+.title-of-third-box h2 {
+font-size: 50px;
+text-align: center;
+}
+
+.title-of-third-box p {
+font-size: 18px;
+text-align: center;
+
+}
+
+.third-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.small-box {
+    width: 23%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.small-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.box-text {
+    margin-top: 10px;
+}
+
+footer {
+    margin: 50px 50px;
+
+        }
+ 
+footer img {
+  width: 20%;
+  height: 20%;
+
+}
+
+footer hr {
+    height: 1px;
+    background-color: #ccc;
+    border: none; 
+    margin: 10px 0; 
+}
+
+
+
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="inner_header">
+      <div class="logo_container">
+        <img src="https://th.bing.com/th/id/OIP.0wG_sVNpPAznRsxy3HWt3AHaEK?rs=1&pid=ImgDetMain" alt="Meta logo">
+      </div>
+      <ul class="navigatation">
+        <a><li>Meta Quest</li></a>
+        <a><li>Ray Band | Meta</li></a>
+        <a><li>Apps and Games</li></a>
+      </ul>
+      <ul class="nav_right">
+        <a><li>About Meta</li></a>
+        <a><li>Support</li></a>
+      </ul>
+
+      <div class="search-bar">
+        <form action="/search" method="get">
+          <input type="text" id="searchInput" name="q" placeholder="Search Meta Store">
+          <input type="submit" value="Search">
+        </form>
+        <img src="https://static.vecteezy.com/system/resources/previews/000/653/780/original/vector-shopping-bag-icon.jpg" alt="Icon Bag" class="icon">
+        <img src="https://th.bing.com/th/id/OIP.vrGPvQjQuVq4RokXF8adFgAAAA?rs=1&pid=ImgDetMain" alt="Icon Person" class="icon">
+      </div>
+    </div>
+  </div>
+
+  <div class="big-section">
+        <p>Special Offer</p>
+        <h2>Exand Your</h2>
+        <h2>World with</h2>
+        <h2>Meta Quest 3</h2>
+        <p>Mixed reality rtarting at $499.99 USD </p>
+        <video class="video-bg" autoplay muted loop>
+            <source src="Untitled video - Made with Clipchamp.mp4" type = "video/mp4">
+            </video>
+</div>
+
+<div class="dual-box-section">
+  <div class="left-box">
+      <h1>Dive into VR </h2>
+      <h1>with </h1>
+      <h1>Meta Quest 2</h1>
+      <p>Experience the thrill of immersive games, fitness</p>
+      <p>apps and entertainment—now for $50 less.</p>
+  </div>
+  <div class="right-box">
+    <h1>Do more in style</h1>
+    <h1> with Ray-Ban | Meta </h1>
+    <p>Next-generation smart glasses that blend an iconic</p>
+    <p>look with cutting-edge technology.</p>
+  </div>
+</div>
+
+<div class="title-of-third-box">
+<h2>Shop Meta Products</h2>
+<p>The future of virtual reality, mixed reality and smart glasses is here.</p>
+</div>
+
+<div class="third-section">
+    <div class="box-container">
+      <div class="small-box">
+      <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.8562-6/365215340_1228044454581583_2875816446709666205_n.jpg?stp=dst-webp&_nc_cat=102&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=i-fEh1TKae8AX8pOAfI&_nc_ht=scontent-mia3-2.xx&oh=00_AfClJdLF8Q4q8TbmziCYsyyfj57bD6MoRp_3kMlcruo-3Q&oe=65E9E03B " alt="Image 1">
+      <div class="box-text">Meta Quest</div>
+    </div>
+    <div class="small-box">
+      <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t39.8562-6/365298810_244871125086717_4002582040946109459_n.jpg?stp=dst-webp&_nc_cat=111&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=-NQbtn3CSygAX8WwbC7&_nc_ht=scontent-mia3-1.xx&oh=00_AfADcK0aql8pnW7zawuiECn4XN5nstMA1nZbz-GUl_4ZFg&oe=65EA0351" alt="Image 2">
+      <div class="box-text">Meta Quest accesories</div>
+    </div>
+    <div class="small-box">
+      <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t39.8562-6/404054338_1210522256572384_7519641946061091087_n.jpg?stp=dst-webp&_nc_cat=104&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=p8FORaEYYJ4AX8P6nyg&_nc_ht=scontent-mia3-1.xx&oh=00_AfBVKQ0nPzv1n9jDWpOBPz9r9vQYd7RPhxBH31ZhI_5QdQ&oe=65E8E7FD" alt="Image 3">
+      <div class="box-text">Meta Quest mixed reality</div>
+    </div>
+    <div class="small-box">
+      <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t39.8562-6/372049668_6517152041698662_7953162039466004058_n.jpg?stp=dst-webp&_nc_cat=108&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=IOMBOCQi5-wAX_xDkbd&_nc_ht=scontent-mia3-1.xx&oh=00_AfB87wL9UnpewvSRwolgzzjTkN_9CBq1nQzhvkAnQ734kA&oe=65E9067B" alt="Image 4">
+      <div class="box-text">Ray-Ban | Meta smart glasses</div>
+    </div>
+</div>
+</div>
+
+<footer>
+  <hr>
+  <img src="https://th.bing.com/th/id/OIP.0wG_sVNpPAznRsxy3HWt3AHaEK?rs=1&pid=ImgDetMain" alt="meta_logo">
+  <p>&copy; 2024 Fake Meta. All rights not reserved. Joshua Yepes.</p>
+</footer>
+
+
+</body>
+
+</html>
