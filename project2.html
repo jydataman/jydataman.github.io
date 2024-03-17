@@ -37,12 +37,14 @@
     max-height: 100%;
     display: table-cell;
     vertical-align: middle;
+    cursor: pointer;
   }
 
   .navigatation {
     float: left;
     margin-left: -330px;
     height: 100%;
+    cursor: pointer;
   }
 
   .navigatation a {
@@ -63,6 +65,7 @@
     float: left;
     margin-left: 215px;
     height: 100%;
+    cursor: pointer;
   }
 
   .nav_right a {
@@ -98,9 +101,10 @@
   }
 
   .search-bar .icon {
-    margin-left: 5px;
-    width: 50px;
-    height: 50px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
   }
 
 
@@ -128,8 +132,43 @@
     margin-bottom: 10px;
 }
 
+.big-section .own_text {
+
+background-color: lavender;
+color: purple;
+width: 110px;
+border-radius: 5px;
+text-align: center;
+
+}
+
 .big-section p {
     font-size: 18px;
+}
+
+.big-section button {
+
+  
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 2px solid #007bff00; 
+    border-radius: 20px;  
+    padding: 20px 30px; 
+    font-size: 16px; 
+    transition: color 0.3s;
+    font-weight: bold;
+
+}
+
+.big-section button:hover {
+    background-color: lightblue; 
+
 }
 
 .dual-box-section {
@@ -145,16 +184,52 @@
 }
 
 .dual-box-section h1 {
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 30px;
+font-family: sans-serif;
+font-size: 40px;
 font-weight: lighter;
+margin-left: 20px;
+position: relative;
+top: 30px;
 
 }
 
 .dual-box-section p {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
   margin-top: 10px;
+  font-weight: bold;
+  margin-left: 20px;
+  position: relative;
+  top: 50px;
+  
 }
+
+
+.dual-box-section button {
+
+background-color: #007bff; 
+color: white; 
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin-top: 20px;
+cursor: pointer;
+border: 2px solid #007bff00; 
+border-radius: 20px;  
+padding: 20px 30px; 
+font-size: 16px; 
+transition: color 0.3s;
+margin-left: 20px;
+position: relative;
+top: 60px;
+font-weight: bold;
+
+}
+
+.dual-box-section button:hover {
+background-color: lightblue;
+}
+
 
 .left-box {
     background-image: url(Screenshot\ 2024-03-03\ 170642.png); 
@@ -171,13 +246,20 @@ font-weight: lighter;
 }
 
 .title-of-third-box h2 {
-font-size: 50px;
+font-size: 40px;
 text-align: center;
+font-family: sans-serif;
+font-weight: lighter;
+
 }
 
 .title-of-third-box p {
-font-size: 18px;
+font-size: 15px;
 text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: grey;
+font-weight: bold;
+margin-top: 10px;
 
 }
 
@@ -208,6 +290,25 @@ text-align: center;
     margin: 0 auto;
 }
 
+.shop-now-button {
+    background-color: transparent;
+    border: 2px solid #c8d2dd; 
+    border-radius: 20px; 
+    color: rgb(20, 91, 206);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-top: 20px;
+    font-weight:bold;
+}
+
+.shop-now-button:hover {
+    color: #007bff; 
+
+}
+
+
 .box-text {
     margin-top: 10px;
 }
@@ -228,8 +329,14 @@ footer hr {
     background-color: #ccc;
     border: none; 
     margin: 10px 0; 
+    margin-top: 60px;
 }
 
+footer .information_class{
+  text-align: justify;
+  top: 10px;
+  margin-bottom: 40px;
+}
 
 
 </style>
@@ -261,18 +368,21 @@ footer hr {
           <input type="text" id="searchInput" name="q" placeholder="Search Meta Store">
           <input type="submit" value="Search">
         </form>
-        <img src="https://static.vecteezy.com/system/resources/previews/000/653/780/original/vector-shopping-bag-icon.jpg" alt="Icon Bag" class="icon">
-        <img src="https://th.bing.com/th/id/OIP.vrGPvQjQuVq4RokXF8adFgAAAA?rs=1&pid=ImgDetMain" alt="Icon Person" class="icon">
+        <img src="https://th.bing.com/th/id/R.f449e5b2eaed9cf43c7697bceb7674b8?rik=QceMFLO6IjguOQ&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fdTr%2f6a7%2fdTr6a7K8c.png&ehk=bnZDAxhtSRZMi9Tj56wsz%2fmW7DBXJzAam9PgMT0fw5o%3d&risl=&pid=ImgRaw&r=0" alt="Icon Bag" class="icon">
+        <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3251108/person-icon-md.png" alt="Icon Person" class="icon">
       </div>
     </div>
   </div>
 
   <div class="big-section">
-        <p>Special Offer</p>
-        <h2>Exand Your</h2>
+    <div class="own_text">
+      <p>Special Offer</p>
+    </div>
+        <h2>Expand Your</h2>
         <h2>World with</h2>
         <h2>Meta Quest 3</h2>
-        <p>Mixed reality rtarting at $499.99 USD </p>
+        <p>Mixed reality starting at $499.99 USD </p>
+        <button>Add to bag</button>
         <video class="video-bg" autoplay muted loop>
             <source src="Untitled video - Made with Clipchamp.mp4" type = "video/mp4">
             </video>
@@ -285,12 +395,15 @@ footer hr {
       <h1>Meta Quest 2</h1>
       <p>Experience the thrill of immersive games, fitness</p>
       <p>apps and entertainment—now for $50 less.</p>
+      <button>Add to bag</button>
   </div>
   <div class="right-box">
-    <h1>Do more in style</h1>
-    <h1> with Ray-Ban | Meta </h1>
+    <h1>Do more in</h1>
+    <h1>style with Ray-</h1>
+    <h1>Ban | Meta</h1>
     <p>Next-generation smart glasses that blend an iconic</p>
     <p>look with cutting-edge technology.</p>
+    <button>Shop all styles</button>
   </div>
 </div>
 
@@ -304,18 +417,22 @@ footer hr {
       <div class="small-box">
       <img src="https://scontent-mia3-2.xx.fbcdn.net/v/t39.8562-6/365215340_1228044454581583_2875816446709666205_n.jpg?stp=dst-webp&_nc_cat=102&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=i-fEh1TKae8AX8pOAfI&_nc_ht=scontent-mia3-2.xx&oh=00_AfClJdLF8Q4q8TbmziCYsyyfj57bD6MoRp_3kMlcruo-3Q&oe=65E9E03B " alt="Image 1">
       <div class="box-text">Meta Quest</div>
+      <button class="shop-now-button">Shop now</button>
     </div>
     <div class="small-box">
       <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t39.8562-6/365298810_244871125086717_4002582040946109459_n.jpg?stp=dst-webp&_nc_cat=111&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=-NQbtn3CSygAX8WwbC7&_nc_ht=scontent-mia3-1.xx&oh=00_AfADcK0aql8pnW7zawuiECn4XN5nstMA1nZbz-GUl_4ZFg&oe=65EA0351" alt="Image 2">
       <div class="box-text">Meta Quest accesories</div>
+      <button class="shop-now-button">Shop now</button>
     </div>
     <div class="small-box">
       <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t39.8562-6/404054338_1210522256572384_7519641946061091087_n.jpg?stp=dst-webp&_nc_cat=104&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=p8FORaEYYJ4AX8P6nyg&_nc_ht=scontent-mia3-1.xx&oh=00_AfBVKQ0nPzv1n9jDWpOBPz9r9vQYd7RPhxBH31ZhI_5QdQ&oe=65E8E7FD" alt="Image 3">
       <div class="box-text">Meta Quest mixed reality</div>
+      <button class="shop-now-button">Shop now</button>
     </div>
     <div class="small-box">
       <img src="https://scontent-mia3-1.xx.fbcdn.net/v/t39.8562-6/372049668_6517152041698662_7953162039466004058_n.jpg?stp=dst-webp&_nc_cat=108&ccb=1-7&_nc_sid=19b1fb&_nc_ohc=IOMBOCQi5-wAX_xDkbd&_nc_ht=scontent-mia3-1.xx&oh=00_AfB87wL9UnpewvSRwolgzzjTkN_9CBq1nQzhvkAnQ734kA&oe=65E9067B" alt="Image 4">
       <div class="box-text">Ray-Ban | Meta smart glasses</div>
+      <button class="shop-now-button">Shop now</button>
     </div>
 </div>
 </div>
@@ -324,6 +441,25 @@ footer hr {
   <hr>
   <img src="https://th.bing.com/th/id/OIP.0wG_sVNpPAznRsxy3HWt3AHaEK?rs=1&pid=ImgDetMain" alt="meta_logo">
   <p>&copy; 2024 Fake Meta. All rights not reserved. Joshua Yepes.</p>
+  <div class="information_class">
+    <p>META QUEST
+
+      Meta Quest: *Parents:* Important guidance & safety warnings for children’s use here. Meta accounts for ages 10+ on Meta Quest 2 and 3; all other Meta Quest headsets for ages 13+. Certain apps, games and experiences may be suitable for a more mature audience. META QUEST FEATURES, FUNCTIONALITY, AND CONTENT NOTICE: Features, functionality and content are subject to change or withdrawal at any time, may not be available in all areas or languages or may be restricted; may require enabled software or service activation, and additional terms, conditions and/or charges may apply.
+      
+      Certain apps and experiences will be available by winter 2023.
+      
+      META QUEST IMPORTANT SAFETY NOTICE https://www.meta.com/quest/quest-2-facial-interface-recall/.
+      
+      Financing Options. You may be offered financing options for your Meta purchases. Learn more here.
+      
+      *Based on the graphic performance of the Qualcomm Snapdragon XR2 Gen 2 vs XR2 Gen 1 on Meta Quest 2
+      
+      RAY-BAN | META SMART GLASSES
+      
+      Ray-Ban Meta smart glasses require a mobile phone with Android (location services enabled) or iOS operating system, wireless internet access, and account registration. Not compatible with all smartphones. Ray-Ban Meta smart glasses only available in select countries. Features, functionality and content are subject to change or withdrawal at any time. Please visit https://www.meta.com/smart-glasses/#faq for the most up-to-date information. For ages 13 and up only. This product may interfere with personal medical devices. Requires updates to be installed from time to time, including prior to first use. While using Ray-Ban Meta smart glasses, it is always the user’s responsibility to comply with any local laws and regulations, especially those relating to privacy and the use of recording devices. Additional account registration, terms and fees may apply.
+      
+      ©2024 Meta.</p>
+  </div>
 </footer>
 
 
